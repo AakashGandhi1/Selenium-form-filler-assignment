@@ -30,7 +30,7 @@ name_field.send_keys('Aakash Gandhi')
 
 # Fill the "Contact Number" field
 phone_number_field = driver.find_element(By.XPATH, phone_number_xpath)
-phone_number_field.send_keys('9810660109')
+phone_number_field.send_keys('123456789')
 
 # Fill the "Email" field
 email_field = driver.find_element(By.XPATH, email_xpath)
@@ -38,13 +38,13 @@ email_field.send_keys('aakashgandhi622@gmail.com')
 
 
 address_field = driver.find_element(By.XPATH, address_xpath)
-address_field.send_keys('Uttam nagar, New delhi - 110059')
+address_field.send_keys('ABC')
 
 Pin_code_Field = driver.find_element(By.XPATH, Pin_code_xpath)
-Pin_code_Field.send_keys('110059')
+Pin_code_Field.send_keys('123456')
 
 DOB_Field = driver.find_element(By.XPATH, DOB_xpath)
-DOB_Field.send_keys('03-02-2003')
+DOB_Field.send_keys('01-01-2000')
 
 
 Gender_Field = driver.find_element(By.XPATH, Gender_xpath)
